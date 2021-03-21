@@ -1,0 +1,452 @@
+.root {
+    font-family: 'roboto';
+    --primarycolor:#7ca3fe;
+    --backgroundcolor:#F9FAFC;
+    --firstcolor:#8490FF;
+    --endcolor:#5EBEF8;
+    --sectioncolor:#77A1FE;
+    --circleborder:#E2E5FF;
+    --circlecolor:#EDEFFF;
+    --sponsorcolor:#71A8FD;
+    --aboutcolor:#04091E;
+    --buttoncolor:#458FF6;
+    --hovercolor:#FB8E67;
+   --button_color: #F94A0C;
+   --fontcolor:#FFFFFF;
+    
+  }
+
+  *{
+
+    font-family: Mulish;   
+  }
+
+  .body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+  }
+ 
+
+  .banner{
+    display:flex;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 16px 20px 35px;
+    font-weight:600;
+    font-size:16px;
+   
+  }
+  .img_banner{
+
+    display:flex;
+    width: 206px;
+    
+  margin-left:50px ;
+  
+  }
+  .home ,.product,.faq{
+    width: 68px;
+    margin-right:22px;
+    
+  }
+  .contact{
+    width: 68px;
+    margin-right:52px;
+    
+  }
+
+
+  .home:hover ,.product:hover,.faq:hover,.contact:hover{
+    color:#FB8E67;
+    
+  }
+  .banner_content{
+
+    width: 32%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+  }
+.header{
+  background-image: url("../images/Rectangle 48.png");
+  height: 1440px;
+  background-repeat: no-repeat;
+  margin-top: -24px;
+  margin: 0;
+
+
+}
+  
+   .header_container{
+  
+    align-items:center;
+    margin-top: 5px;
+    width: 200%;
+    padding-top: -40px;
+    align-items:center;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0;
+    padding-bottom: -130px;
+    
+   
+  }
+  .images_header{
+justify-content: center;
+display: flex;
+margin-bottom: 50px;
+    margin-top: -1020px;
+  }
+  .start_header{
+    
+    font-weight:700;
+    font-size: 24px;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    Line-height :56px;
+  }
+  .middle_header{
+    flex-wrap: wrap;
+    font-weight:700;
+    font-size :58px;
+    padding-top:17px;
+   
+  
+  }
+  
+  .end_header{
+    flex-wrap: wrap;
+    
+    font-weight:500;
+   
+    font-size:24px;
+    margin-bottom:5px;
+    padding-top:27px;
+  
+  }
+  
+
+
+  .button{
+
+    margin-top: 70px;
+  }
+  
+  .play_btn{
+    
+     
+    justify-content:center;
+    align-items:center;
+    font-weight:700;
+    font-size:18px;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    padding: 13px 35px;
+   color:#FFFFFF;
+   margin-right: 20px;
+   text-overflow:clip;
+   word-wrap:break-word;
+   text-align:left;
+    background-color: #F94A0C;
+  }
+   
+  .app_btn{
+    display: flexbox;
+   justify-content:center;
+   align-items:center;
+   font-weight:700;
+   font-size:18px;
+   border-radius: 45px;
+   border: 0.25px solid #FFFFFF;
+   padding: 13px 35px;
+  color:#FFFFFF;
+  text-overflow:clip;
+  word-wrap:break-word;
+  text-align:left;
+   background-color: transparent;
+ }
+  
+  
+  .img_header{
+     
+   object-position: right;
+   Width :47%;
+   justify-content: center;
+     
+  
+   }
+
+
+.partial_header{
+
+width: 75%;
+margin-left: 50%;
+ text-align: center;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    margin-bottom: -30px;
+    padding-bottom: -40px;
+}
+
+.start_header,.middle_header,.end_header,.button{
+width: 780px;
+  text-align: center;
+     justify-content: space-between;
+     align-items:center;
+     color: #FFFFFF;
+    
+
+}
+.left_image{
+
+  margin-top: -90px;
+  margin-right: -245px;
+
+}
+
+.right_image{
+margin-top: 130px;
+
+}
+.app_work{
+
+    
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 30px;
+   text-align: center;
+   display:block;
+  
+ }
+
+
+ 
+.check_out_container,.account_container,.food_container{
+ 
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
+  align-items:baseline;
+  justify-content: space-between;
+  align-items:center;
+ 
+  text-align: left;
+  margin-left: 260px;
+  height: 550px
+ 
+}
+ 
+
+.check_out_header,.account_header,.food_header{
+  align-items:center;
+  margin-left: 50px;
+ 
+
+  
+ 
+}
+.check_out_start,.account_start,.food_start{
+  justify-content: space-between;
+  align-items:center;
+  font-weight:700;
+  font-size: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+  text-align: left;
+  color: #F94A0C;
+}
+.check_out_middle,.account_middle,.food_middle{
+
+  justify-content: space-between;
+  align-items:center;
+  text-align: left;
+  font-weight:700;
+  font-size:40px;
+  margin-bottom:27px;
+  width:100%;
+
+
+}
+
+
+.check_out_end,.account_end,.food_end{
+
+  justify-content: space-between;
+  align-items:center;
+  font-weight:500;
+  font-size:24px;
+  margin-bottom:9px;
+  width:60%;
+  color: #838383;
+  text-align: left;
+}
+
+
+.img_account,.img_check_out,.img_food{
+   
+  object-position: left;
+  Width :47%;
+  justify-content: center;
+  
+    
+ 
+  }
+
+  .download_header{
+   
+    margin: 0;
+    width: 120%;
+    align-items:center;
+    justify-content: space-between;
+   text-align: center;
+  
+  }
+    
+     .download_container{
+      background-image: url("../images/Rectangle\ 47.png");
+      align-items:center;
+      background-repeat: no-repeat;
+      margin-top: 5px;
+      width: 200%;
+      height: 516px;
+      justify-content: space-between;
+      margin: 0;
+      
+     
+    }
+    .start_download{
+      
+      font-weight:700;
+      font-size: 40px;
+      flex-wrap: wrap;
+      padding-top: 145px;
+      Line-height :56px;
+    }
+    .middle_download{
+      flex-wrap: wrap;
+      font-weight:500;
+      font-size :24px;
+      padding-top:20px;
+     
+    
+    }
+    
+    
+  
+  
+    .download_button{
+  
+      padding-top: 70px;
+    }
+    
+    .download_play_btn{
+      
+       
+      justify-content:center;
+      align-items:center;
+      font-weight:700;
+      font-size:16px;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      padding: 13px 35px;
+     color:#FFFFFF;
+     margin-right: 20px;
+     text-overflow:clip;
+     word-wrap:break-word;
+     text-align:left;
+      background-color: #F94A0C;
+    }
+     
+    .download_app_btn{
+      display: flexbox;
+      
+     justify-content:center;
+     align-items:center;
+     font-weight:700;
+     font-size:16px;
+     border: 0.25px solid #FFFFFF;
+     padding: 13px 35px;
+    color:#FFFFFF;
+    text-overflow:clip;
+    border-radius: 10px;
+    word-wrap:break-word;
+    text-align:left;
+     background-color: transparent;
+   }
+    
+    
+    .img_download{
+       
+     object-position: right;
+     Width :47%;
+     justify-content: center;
+       
+    
+     }
+  
+  
+  .start_download,.middle_download,.end_download,.download_button{
+  width: 1400px;
+    text-align: center;
+       justify-content: space-between;
+       align-items:center;
+       color: #FFFFFF;
+      
+  
+  }
+
+  .footer_section{
+
+    padding:80px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    Width :1210px;
+    height: 133px;
+    height: fit-content;
+    justify-items: center;
+     
+  }
+  .img_footer{
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+  }
+  .img_face,.img_twitt,.img_insta{
+
+      width: 33px;
+      
+  }
+  .img_face:hover,.img_twitt:hover,.img_insta:hover{
+
+    
+    border-image:#F94A0C ;
+}
+  .img_face,.img_twitt,.img_inst{
+
+    margin-right: 53px;
+    
+}
+  .footer_right{
+    justify-content: space-between;
+    align-items:center;
+    
+    font-weight:700;
+    font-size: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+
+    
+     
+    }
